@@ -1,0 +1,43 @@
+/* Ensure consistent image sizing */
+#switchImage {
+    width: 800px;  /* Set a standard width */
+    height: 450px; /* Set a standard height */
+    object-fit: cover;  /* Maintain aspect ratio while covering the entire area */
+    object-position: center;  /* Center the image within the box */
+    display: block;  /* Center the image */
+    margin: 0 auto;  /* Horizontally center the image */
+}
+
+.header {
+    display: flex;  /* הופך את הכותרת למבנה גמיש עם פריסת שורה */
+    justify-content: space-between;  /* מרווח שווה בין הלוגו לתפריט */
+    align-items: center;  /* ממרכז את האלמנטים אנכית */
+    padding: 1rem 2rem;  /* מוסיף רווח פנימי מסביב */
+    background-color: #3bba50;  /* רקע ירוק */
+    border: 1px solid #0015ff;  /* מסגרת כחולה דקה */
+}
+
+.toolbar {
+    display: flex;  /* מיישר את הפריטים בשורה אחת */
+    gap: 1.5rem;  /* מוסיף רווחים בין הפריטים */
+}
+
+.toolbar-item {
+    color: #ffffff;  /* צבע לבן לקישורים */
+    text-decoration: none;  /* מסיר קו תחתון מהקישורים */
+    padding: 0.5rem 1rem;  /* רווחים מסביב לטקסט */
+    border: 1px solid #4600d2;  /* מסגרת סגולה דקה */
+    font-weight: bold;
+}
+
+.toolbar-item:hover {
+    background-color: #5100ff;  /* משנה את הצבע כאשר מעבירים את העכבר מעל */
+}
+
+body {
+    background-color:rgb(54, 88, 100)
+}
+
+
+
+
